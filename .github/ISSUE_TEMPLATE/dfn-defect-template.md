@@ -14,8 +14,10 @@ assignees: ''
  - apk [tway37.ipa]
 
 ## 설명
-
 오디언스 adid에 빈값이 들어와 푸시 전송이 안되는 이슈
+
+## 스크린샷
+(https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)
 
 ## 스크린샷
 
@@ -25,16 +27,16 @@ assignees: ''
 2. SKAN로 인하여, 오디언스의 adid에 빈값으로 들어온 것을 확인
 3. 해당 오디언스로 푸시 전송
 
-# 실제 결과
+## 실제 결과
 
-# 영향 범위
+## 영향 범위
 
 1. Push message
 2. Growth Scenario Push message
 
-# 스크린샷
+## 스크린샷
 
-# 고객/내부 피드백
+## 고객/내부 피드백
 
 **Describe the bug**
 A clear and concise description of what the bug is.
