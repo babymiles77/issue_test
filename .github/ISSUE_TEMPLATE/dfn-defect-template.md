@@ -19,8 +19,6 @@ assignees: ''
 ## 스크린샷
 ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)
 
-## 스크린샷
-
 ## 기대 결과
 
 1. SKAN 호출 
@@ -29,12 +27,14 @@ assignees: ''
 
 ## 실제 결과
 
+1. SKAN 호출 
+2. SKAN로 인하여, 오디언스의 adid에 빈값으로 들어온 것을 확인
+3. 푸시 수신되지 않음
+
 ## 영향 범위
 
 1. Push message
 2. Growth Scenario Push message
-
-## 스크린샷
 
 ## 고객/내부 피드백
 
