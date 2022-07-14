@@ -17,7 +17,7 @@ assignees: ''
 오디언스 adid에 빈값이 들어와 푸시 전송이 안되는 이슈
 
 ## 스크린샷
-!(https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)
+![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)
 
 ## 스크린샷
 
