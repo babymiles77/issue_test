@@ -13,7 +13,7 @@ assignees: ''
  - Version [e.g. SDK v2.0]
  - apk [tway37.ipa]
 
-## 설명
+## 설명/연관이슈
 오디언스 adid에 빈값이 들어와 푸시 전송이 안되는 이슈
 
 ## 재현과정
