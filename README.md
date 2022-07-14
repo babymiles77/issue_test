@@ -1,24 +1,13 @@
 # Issue_Template
 
-
-## 플랫폼
-
-- [ ]  SDK
-- [ ]  AOS
-- [ ]  IOS
-- [ ]  그로스 시나리오
-- [ ]  푸시
-- [ ]  인앱메시지
-- [ ]  프로파일 API
-
 ## 설명
 (Please include any screenshots of the bug, or error codes, etc)
 
 * 오디언스 adid에 빈값이 들어와 푸시 전송이 안되는 이슈
 
-## 스크린샷
+img
 
-img insert
+## 연관이슈(optional)
 
 ## 기대 결과
 
