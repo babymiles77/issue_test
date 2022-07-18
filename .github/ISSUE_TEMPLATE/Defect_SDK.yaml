@@ -1,4 +1,4 @@
-name: [Defect]_SDK
+name: Defect_SDK
 description: File a sdk defect report
 title: "[SDK]_" 
 labels: ["bug"]
