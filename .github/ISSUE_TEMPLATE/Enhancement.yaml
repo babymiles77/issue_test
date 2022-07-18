@@ -1,0 +1,42 @@
+name: Enhancement
+description: File a enhancement suggestions
+title: "[Enhance]_ " 
+labels: ["Enhance"]
+assignees:
+  -
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include any pictures or , etc
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 설명
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: |
+        ui 변경사항 제안
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: any screenshots of the bug, or error codes
+      value: |
+        ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)      
+    validations:
+      required: false
+  - type: textarea
+    id: testcase
+    attributes:
+      label: Testcase 변경사항
+      description: Testcase 변경사항
+      value: | 
+      테스트케이스 | 기대결과 
+      ---- | ----
+      test | 0
+      test2 | 1
+    validations:
+      required: false
