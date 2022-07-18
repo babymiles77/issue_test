@@ -34,9 +34,9 @@ body:
       label: Testcase 변경사항
       description: Testcase 변경사항
       value: | 
-      테스트케이스 | 기대결과 
-      ---- | ----
-      test | 0
-      test2 | 1
+        테스트케이스 | 기대결과 
+        ---- | ----
+        test | 0
+        test2 | 1
     validations:
       required: false
