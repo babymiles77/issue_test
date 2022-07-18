@@ -15,7 +15,8 @@ body:
       label: 설명
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "1. Go to '...'"
+      value: 
+      "1. Go to '...'"
       "2. Click on '....'"
       "3. Scroll down to '....'"
       "4. See error"
