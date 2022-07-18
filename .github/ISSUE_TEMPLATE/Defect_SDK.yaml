@@ -1,4 +1,4 @@
-name: [Defect] SDK
+name: [Defect]_SDK
 description: File a sdk defect report
 title: "[SDK]_" 
 labels: ["bug"]
@@ -39,7 +39,11 @@ body:
     attributes:
       label: 재현과정
       description: Please include any screenshots of the bug, or error codes, etc
-      #placeholder: Tell us what you see!
-      #value: "A bug happened!"
+      placeholder: Tell us what you see!
+      value: 
+      "1. Go to '...'
+      2. Click on '....'
+      3. Scroll down to '....'
+      4. See error"
     validations:
       required: false
