@@ -15,7 +15,11 @@ body:
       label: 설명
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: 스크린샷 ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)
+      value: "1. Go to '...'"
+      "2. Click on '....'"
+      "3. Scroll down to '....'"
+      "4. See error"
+      "스크린샷 ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)"
     validations:
       required: true
   - type: dropdown
@@ -27,4 +31,4 @@ body:
         - 1.0.2 (Default)
         - 1.0.3 (Edge)
     validations:
-      required: true
+      required: false
