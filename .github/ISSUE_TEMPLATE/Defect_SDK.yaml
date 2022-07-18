@@ -17,10 +17,10 @@ body:
       description: 발생 환경
       placeholder: Tell us what you see!
       value: 
-      " - Device: [e.g. iPhone6]"
-      " - OS: [e.g. iOS8.1]"
-      " - Version [e.g. SDK v2.0]"
-      " - apk [tway37.ipa]"
+      " - Device: [e.g. iPhone6]";
+      " - OS: [e.g. iOS8.1]";
+      " - Version [e.g. SDK v2.0]";
+      " - apk [tway37.ipa]";
     validations:
       required: false
       
