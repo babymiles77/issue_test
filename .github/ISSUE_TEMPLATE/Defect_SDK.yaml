@@ -71,8 +71,8 @@ body:
   - type: textarea
     id: sideeffect
     attributes:
-      label: sideeffect
-      description: side effects
+      label: Side Effect
+      description: 예상 사이드이펙트
       placeholder: Tell us what you see!
       value: |
         1. Go to '...'
