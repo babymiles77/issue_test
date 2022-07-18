@@ -1,0 +1,45 @@
+name: [Defect] SDK
+description: File a sdk defect report
+title: "[SDK]_" 
+labels: ["bug"]
+assignees:
+  -
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        
+  - type: markdown
+    id: environment
+    attributes:
+      label: 발생 환경
+      description: 발생 환경
+      placeholder: Tell us what you see!
+      value: 
+      " - Device: [e.g. iPhone6]
+      - OS: [e.g. iOS8.1]
+      - Version [e.g. SDK v2.0]
+      - apk [tway37.ipa]"
+    validations:
+      required: false
+      
+  - type: markdown
+    id: what-happened
+    attributes:
+      label: 설명
+      description: Please include any screenshots of the bug, or error codes, etc
+      #placeholder: Tell us what you see!
+      #value: "A bug happened!"
+    validations:
+      required: true
+      
+  - type: markdown
+    id: reproduce
+    attributes:
+      label: 재현과정
+      description: Please include any screenshots of the bug, or error codes, etc
+      #placeholder: Tell us what you see!
+      #value: "A bug happened!"
+    validations:
+      required: false
