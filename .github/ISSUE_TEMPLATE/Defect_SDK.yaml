@@ -23,7 +23,7 @@ body:
   - type: markdown
     id: what-happened
     attributes:
-      label: 설명
+      label: description
       description: Please include any screenshots of the bug, or error codes, etc
       #placeholder: Tell us what you see!
       #value: "A bug happened!"
@@ -33,7 +33,7 @@ body:
   - type: markdown
     id: reproduce
     attributes:
-      label: 재현과정
+      label: reproduce
       description: Please include any screenshots of the bug, or error codes, etc
       placeholder: Tell us what you see!
       value: "1. Go to '...'"; "2. Click on '....'"; "3. Scroll down to '....'"; "4. See error"; 
