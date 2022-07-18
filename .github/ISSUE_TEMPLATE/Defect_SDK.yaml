@@ -12,7 +12,6 @@ body:
   - type: markdown
     id: environment
     attributes:
-      label: environment
       description: 발생 환경
       placeholder: Tell us what you see!
       value: " - Device: [e.g. iPhone6]"; " - OS: [e.g. iOS8.1]"; " - Version [e.g. SDK v2.0]"; " - apk [tway37.ipa]";
@@ -21,7 +20,6 @@ body:
   - type: markdown
     id: what-happened
     attributes:
-      label: description
       description: Please include any screenshots of the bug, or error codes, etc
       #placeholder: Tell us what you see!
       #value: "A bug happened!"
