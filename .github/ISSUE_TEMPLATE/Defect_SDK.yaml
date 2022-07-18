@@ -12,9 +12,9 @@ body:
   - type: markdown
     id: environment
     attributes:
-      description: description
-      placeholder: Tell us what you see!
-      value: " - Device: [e.g. iPhone6]"; " - OS: [e.g. iOS8.1]"; " - Version [e.g. SDK v2.0]"; " - apk [tway37.ipa]";
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
       required: false
   - type: markdown
