@@ -10,6 +10,19 @@ body:
       value: |
         Please include any screenshots of the bug, or error codes, etc
   - type: textarea
+    id: environment
+    attributes:
+      label: 발생 환경
+      description: environment information
+      placeholder: Tell us about spec.
+      value: |
+         - Device: [e.g. iPhone6]
+         - OS: [e.g. iOS8.1]
+         - Version [e.g. SDK v2.0]
+         - apk [tway37.ipa]
+    validations:
+      required: false
+  - type: textarea
     id: what-happened
     attributes:
       label: 설명
@@ -38,10 +51,9 @@ body:
       description: expected results
       placeholder: Tell us what you see!
       value: |
-        1. Go to '...'
-        2. Click on '....' 
-        3. Scroll down to '....' 
-        4. See error
+        1. SKAN 호출
+        2. SKAN로 인하여, 오디언스의 adid에 빈값으로 들어온 것을 확인
+        3. 해당 오디언스로 푸시 전송
     validations:
       required: false
   - type: textarea
@@ -51,10 +63,9 @@ body:
       description: occurred results
       placeholder: Tell us what you see!
       value: |
-        1. Go to '...'
-        2. Click on '....' 
-        3. Scroll down to '....' 
-        4. See error
+        1. SKAN 호출
+        2. SKAN로 인하여, 오디언스의 adid에 빈값으로 들어온 것을 확인
+        3. 푸시 수신되지 않음
     validations:
       required: false
   - type: textarea
@@ -64,9 +75,7 @@ body:
       description: 예상 사이드이펙트
       placeholder: Tell us what you see!
       value: |
-        1. Go to '...'
-        2. Click on '....' 
-        3. Scroll down to '....' 
-        4. See error
+        1. Push message
+        2. Growth Scenario Push message
     validations:
       required: false
