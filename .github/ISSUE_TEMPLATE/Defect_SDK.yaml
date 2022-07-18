@@ -28,9 +28,8 @@ body:
   - type: markdown
     id: reproduce
     attributes:
-      label: reproduce
-      description: Please include any screenshots of the bug, or error codes, etc
-      placeholder: Tell us what you see!
-      value: "1. Go to '...'"; "2. Click on '....'"; "3. Scroll down to '....'"; "4. See error"; 
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
       required: false
