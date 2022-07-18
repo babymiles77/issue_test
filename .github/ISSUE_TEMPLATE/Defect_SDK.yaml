@@ -20,9 +20,6 @@ body:
         2. Click on '....' 
         3. Scroll down to '....' 
         4. See error
-        ---
-        스크린샷 
-        ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)      
     validations:
       required: true
   - type: textarea
@@ -31,8 +28,6 @@ body:
       label: Screenshots
       description: any screenshots of the bug, or error codes
       value: |
-        ---
-        스크린샷 
         ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)      
     validations:
       required: false
@@ -47,9 +42,6 @@ body:
         2. Click on '....' 
         3. Scroll down to '....' 
         4. See error
-        ---
-        스크린샷 
-        ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)      
     validations:
       required: false
   - type: textarea
@@ -63,9 +55,6 @@ body:
         2. Click on '....' 
         3. Scroll down to '....' 
         4. See error
-        ---
-        스크린샷 
-        ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)      
     validations:
       required: false
   - type: textarea
@@ -79,8 +68,5 @@ body:
         2. Click on '....' 
         3. Scroll down to '....' 
         4. See error
-        ---
-        스크린샷 
-        ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)      
     validations:
       required: false
