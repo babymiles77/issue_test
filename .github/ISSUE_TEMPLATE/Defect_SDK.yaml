@@ -26,9 +26,20 @@ body:
     validations:
       required: true
   - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: any screenshots of the bug, or error codes
+      value: |
+        ---
+        스크린샷 
+        ![](https://s3.orbi.kr/data/file/united/e47449c1004a6d8d1fcf4de5c4b37f73.jpeg)      
+    validations:
+      required: false
+  - type: textarea
     id: expectation
     attributes:
-      label: expectation
+      label: 기대결과
       description: expected results
       placeholder: Tell us what you see!
       value: |
@@ -44,7 +55,7 @@ body:
   - type: textarea
     id: occurred
     attributes:
-      label: occurred
+      label: 발생결과
       description: occurred results
       placeholder: Tell us what you see!
       value: |
